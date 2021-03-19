@@ -18,9 +18,13 @@ ul {
   list-style: none;
 }
 
-li {
+.navbar li {
   display: inline-block;
   padding: 20px;
+}
+
+.right-bar li a {
+  padding-right: 25px;
 }
 
 li a {
@@ -41,4 +45,23 @@ li a {
   background-color: black;
   color: white;
   border-style: none;
+}
+
+.dropdowns div {
+  float: right;
+  position: relative;
+  right: 240px;
+  bottom: 70px;
+}
+
+.drop1 {
+  padding-left: 30px;
+}
+
+.drop2 {
+  padding-left: 10px;
+}
+
+.hidden {
+  display: none;
 }
