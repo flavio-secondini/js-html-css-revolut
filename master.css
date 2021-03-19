@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-list, .right-list {
+  display: flex;
+}
+
+.left-bar img {
+  height: 50px;
+  width: auto;
+  position: relative;
+  top: -15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.sign-in {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: lightgray;
+  border-style: none;
+}
+
+.get-app {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border-style: none;
+}
